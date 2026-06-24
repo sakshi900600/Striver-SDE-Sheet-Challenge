@@ -42,6 +42,8 @@ class Solution(object):
     
 
 # Optimized solution:
+# dp[i] = True if the substring s[0:i] (the first i characters of s) can be segmented into words from the dictionary.
+
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """
